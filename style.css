@@ -1,5 +1,5 @@
 *{
-    font-size: 14px;
+    font-size: 16px;
     color: white;
 }
 
@@ -64,7 +64,7 @@ body{
 }
 
 #titulo{
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     margin-bottom: 30px;
@@ -73,7 +73,7 @@ body{
 #link{
     color: white;
     font-weight: bolder;  
-    font-size: 18px; 
+    font-size: 25px; 
 }
 
 #link:hover{
@@ -81,7 +81,7 @@ body{
 }
 
 #pergunta{
-    font-size: 18px;
+    font-size: 25px;
     margin: 2px;
 }
 
@@ -129,4 +129,65 @@ body{
 
 .botao2:hover{
     box-shadow: 0px 0px 8px 5px rgba(255, 255, 255, 0.527);
+}
+
+@media (max-width: 1024px){
+    *{
+        font-size: 14px;
+        color: white;
+    }
+
+    #titulo{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+    
+    #link{
+        color: white;
+        font-weight: bolder;  
+        font-size: 18px; 
+    }
+    
+    #link:hover{
+        color: rgb(1, 1, 124);
+    }
+    
+    #pergunta{
+        font-size: 18px;
+        margin: 2px;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    *{
+        font-size: 9px;
+        color: white;
+    }
+
+    #titulo{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+    
+    #link{
+        color: white;
+        font-weight: bolder;  
+        font-size: 12px; 
+    }
+    
+    #link:hover{
+        color: rgb(1, 1, 124);
+    }
+    
+    #pergunta{
+        font-size: 12px;
+        margin: 2px;
+    }
+
 }
