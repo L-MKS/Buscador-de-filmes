@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Desafio 4.ts"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="all">
+        
+        <div class="dadosLogin" id="dadosLogin">
+
+            <div class="recado">
+                <h1 id="titulo">SEJA BEM VINDO AO BUSCADOR DE FILMES!</h1>
+                <p id="pergunta">Ainda não possui cadastro?</p>
+                <a target="_blank" id="link" href="https://www.themoviedb.org/signup">Crie seu login aqui!</a>
+            </div>
+
+            <div class="insert">   
+                <input class="inputs" id="login" placeholder="Usuário" onchange="preencherLogin(event)">
+                <input class="inputs" id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
+                <button class="botao1" onclick=loginPress() id="login-button">Login</button>
+            </div>
+            
+           
+
+        </div>
+
+        <div id="dadosBusca" class="hide">
+
+            <div id="search-container">
+                <input class="inputs" id="search" placeholder="Escreva...">
+                <button class="botao2" onclick=searchPress() id="search-button">Pesquisar Filmes</button>
+            </div>
+
+            <div id="listBox">  
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
