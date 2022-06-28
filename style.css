@@ -73,7 +73,7 @@ body{
 #link{
     color: white;
     font-weight: bolder;  
-    font-size: 15px; 
+    font-size: 18px; 
 }
 
 #link:hover{
@@ -81,8 +81,8 @@ body{
 }
 
 #pergunta{
-    font-size: 15px;
-    margin: 0px;
+    font-size: 18px;
+    margin: 2px;
 }
 
 .inputs{
