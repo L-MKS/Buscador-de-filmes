@@ -3,3 +3,6 @@ Seja bem vindo ao meu projeto DIO.
 Estes são as resoluções dos desafios propostos pelo professor de TypeScript da Digital Inovation One.
 
 O Desafio 4 foi aprimorado com um CSS e HTML próprios!
+
+----------------------------------------
+O objetivo principal é criar uma página que busque e liste filmes através do nome
